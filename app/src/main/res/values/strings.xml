@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Trabalho1</string>
+    <string name="imagemAbertura">TODO</string>
+    <string name="logoJFRNname">logoJFRN</string>
+    <string name="imgJfrn">imgJfrn</string>
+    <string name="img_add">img_add</string>
+    <string name="img_usuarios">img_usuarios</string>
+    <string name="img_add_user">img_add_user</string>
+    <string name="img_list_user">img_list_user</string>
+</resources>

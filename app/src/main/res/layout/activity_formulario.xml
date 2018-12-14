@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.FormularioActivity">
+
+    <ImageView
+        android:id="@+id/formulario_img"
+        android:layout_width="63dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="43dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/user" />
+
+    <TextView
+        android:id="@+id/formulario_txtForm"
+        android:layout_width="236dp"
+        android:layout_height="104dp"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="31dp"
+        android:layout_marginEnd="8dp"
+        android:text="Cadastro de novo usuário"
+        android:textSize="35sp"
+        app:layout_constraintEnd_toStartOf="@+id/formulario_img"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Cadastro de novo usuário" />
+
+    <EditText
+        android:id="@+id/formulario_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:ems="10"
+        android:hint="Login do usuário"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/formulario_txtForm" />
+
+    <EditText
+        android:id="@+id/formulario_senha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:ems="10"
+        android:hint="Senha do usuário"
+        android:inputType="textPassword"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/formulario_login" />
+
+    <Button
+        android:id="@+id/formulario_botao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:layout_marginBottom="127dp"
+        android:text="Cadastrar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/formulario_senha" />
+
+</android.support.constraint.ConstraintLayout>
